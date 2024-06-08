@@ -1,0 +1,10 @@
+name: Primeiro_Workflow
+on: workflow_dispatch
+jobs:
+  primeiro-job:
+    runs on: ubuntu_latest
+    steps:
+      - name: print
+        run: echo "Hello World!"
+      - name: print2
+        run: echo "Bye"
